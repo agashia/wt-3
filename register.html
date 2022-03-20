@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <title>Registration Form</title>
+</head>
+<body>
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="#">MECHATRONICS</a>
+          </div>
+          <ul class="nav navbar-nav">
+            <li class="nav-item"><a href="./home.html">Home</a></li>
+            <li class="nav-item"><a href="./about.html">About</a></li>
+            <li class="nav-item"><a href="./register.html">Register</a></li>
+            <li class="nav-item"><a href="./contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <h2 style="text-align:center">Registration Form</h2>
+     <div class="mb-5" style="font-size: large; background-color: darkseagreen; height:100">
+        <b>
+<form>
+    
+      <div class="form-group col-md-6">
+        <label for="name">NAME</label>
+        <input type="text" class="form-control" id="name" placeholder="Enter your name"><br>
+      </div>
+      <div class="form-group col-md-6">
+        <label for="roll no">Register No</label>
+        <input type="text" class="form-control" id="text" placeholder="Enter you register no"><br>
+      </div>
+    
+    <div class="form-group">
+      <label for="technicalevents">Tech_Events</label>
+      <input type="checkbox" class="form-check-inline">
+      <label class="form-check-label" for="cb1">Paper Presentation</label>
+      <input type="checkbox" class="form-check-inline">
+      <label class="form-check-label" for="cb2">Project Presentation</label>
+      <input type="checkbox" class="form-check-inline">
+      <label class="form-check-label" for="cb3">Workshop</label>
+      </div>
+    <div class="form-group">
+      <label for="non-technicalevents">Non-Tech_Events</label>
+      <input type="checkbox" class="form-check-inline">
+         <label class="form-check-label" for="cb5">Photography</label>
+         <input type="checkbox" class="form-check-inline">
+         <label class="form-check-label" for="cb6">Meme Creation</label>
+         <input type="checkbox" class="form-check-inline">
+         <label class="form-check-label" for="cb7">Poster Designing</label> 
+    </div>
+    <div class="form-row">
+      <div class="form-group col-md-4">
+        <label for="email">E-mail</label>
+        <input type="email" class="form-control" id="email" placeholder="Enter your email">
+      </div>
+      <div class="form-group col-md-4">
+        <label for="department">Department</label>
+        <select id="department" class="form-control">
+            <option value=""></option>
+          <option value="IT">IT</option>
+          <option value="CSE">CSE</option>
+          <option value="CSE">ECE</option>
+          <option value="CSE">EEE</option>
+          <option value="CSE">CIVIL</option>
+          <option value="CSE">MECH</option>
+        </select>
+      </div>
+      <div class="form-group col-md-4">
+        <label for="phone no">Mobile No</label>
+        <input type="text" class="form-control" id="text" placeholder="Enter your mobile no">
+      </div>
+    </div>
+    </b>
+    <div class="text-center">
+    <button type="submit" class="btn btn-primary">Register</button>
+    </div>
+</form>
+</body>
+</html>
